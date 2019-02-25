@@ -1,0 +1,8 @@
+# MacOS System Files
+.DS_Store
+__pycache__/
+
+# Project Directories
+models/
+train-stats/
+data/
