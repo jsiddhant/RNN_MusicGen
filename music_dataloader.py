@@ -9,7 +9,7 @@ class ClassDictionary:
         self.index_to_class = None
         self.class_to_index = None
         self.make_lookup(data_fp)
-        self.len = len(self.vocab_set) + 1
+        self.len = len(self.vocab_set)
 
     def __len__(self):
         return self.len
@@ -69,8 +69,8 @@ class MusicDataset(Dataset):
         self.len = len(self.tunes) - 1
 
     def get_ids(self, string):
-        if string is '<start>' or string is '<end>':
-            return self.dictionary[string]
+        if string == '<start>\n' or string == '<end>\n':
+            string = [string[:-1], string[-1]]
 
         return [self.dictionary[c] for c in string]
 
@@ -90,7 +90,7 @@ def create_split_loaders(seq_length):
     train_dataset = MusicDataset(dictionary, fp_train)
     val_dataset = MusicDataset(dictionary, fp_val)
     test_dataset = MusicDataset(dictionary, fp_test)
-
+    
     train_loader = DataLoader(train_dataset, batch_size=seq_length)
     val_loader = DataLoader(val_dataset, batch_size=seq_length)
     test_loader = DataLoader(test_dataset, batch_size=seq_length)
