@@ -12,8 +12,8 @@ from lstm import LSTM
 from music_dataloader import create_split_loaders
 from torch_utils import setup_device
 
-def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, model_name, seq_length=100,
-            chkpt_every=100, update_hist=50, val_every=1000):
+def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, model_name, computing_device,
+            chkpt_every=25, update_hist=50, val_every=1000):
     train_losses = dict()
     val_losses = dict()
     total_seen = 0
@@ -31,16 +31,16 @@ def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, mod
     for epoch in np.arange(n_epochs):
         train_losses[epoch] = []
         val_losses[epoch] = []
-        model.train()
-        model.reset_state()
         for i, (x, y) in enumerate(train_loader):
-            loss = criterion(torch.squeeze(model(torch.unsqueeze(x, 0))), y)
+            model.train()
+            optimizer.zero_grad()
+
+            x, y = x.to(computing_device), y.to(computing_device)
+            g = torch.squeeze(model(torch.unsqueeze(x, 0)))
+            loss = criterion(g, y)
             loss.backward()
             optimizer.step()
-            # Question about efficiency with the detachment every iteration
             train_losses[epoch].append(loss.detach().cpu().numpy())
-            #print(type(loss.data.tolist()))
-            #print(train_losses[0][0])
             total_seen += 1
 
             # Report training stats
@@ -58,14 +58,22 @@ def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, mod
                     pickle.dump(val_losses, f)
             if not total_seen % val_every:
                 # Validate the model
-                val_losses[epoch].append(evaluate_model(model, val_loader, criterion))
+                val_losses[epoch].append(evaluate_model(model, val_loader, criterion, computing_device,
+                                                        start_time))
 
-        print('')
+        print(f'\n[EPOCH {epoch + 1}]: Avg. loss for epoch: {np.mean(train_losses[epoch])}\n')
 
-        val_losses[epoch] = evaluate_model(model, val_loader, criterion)
-
-
-def evaluate_model(model, loader, criterion):
+def evaluate_model(model, loader, criterion, computing_device, start_time):
     model.eval()
-    return torch.mean(torch.tensor([criterion(torch.squeeze(model(torch.unsqueeze(x, 0))), y) \
-                       for x, y in loader]))
+    val_losses = []
+    T = len(loader)
+
+    print(' ' * 200, end='\r')
+
+    for i, (x, y) in enumerate(loader):
+        x = x.to(computing_device)
+        y = y.to(computing_device)
+        val_losses.append(criterion(torch.squeeze(model(torch.unsqueeze(x, 0))), y))
+        print(f'Validating model: {i}/{T}', end='\r')
+
+    return torch.mean(torch.tensor(val_losses)).detach().cpu().numpy()
