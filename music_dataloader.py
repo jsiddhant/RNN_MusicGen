@@ -90,8 +90,13 @@ def create_split_loaders(seq_length):
     train_dataset = MusicDataset(dictionary, fp_train)
     val_dataset = MusicDataset(dictionary, fp_val)
     test_dataset = MusicDataset(dictionary, fp_test)
+<<<<<<< Updated upstream
     
     train_loader = DataLoader(train_dataset, batch_size=seq_length)
+=======
+
+    train_loader = DataLoader(train_dataset, batch_size=seq_length, pin_memory=True)
+>>>>>>> Stashed changes
     val_loader = DataLoader(val_dataset, batch_size=seq_length)
     test_loader = DataLoader(test_dataset, batch_size=seq_length)
 

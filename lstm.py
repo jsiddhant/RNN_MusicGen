@@ -16,7 +16,8 @@ class LSTM(nn.Module):
         else:
             x, (self.h_0, self.c_0) = self.lstm(x)
         x = self.linear(x)
-        g = self.softmax(x)
+#         g = self.softmax(x)
+        g=x
 
         self.h_0 = Variable(self.h_0.data, requires_grad=False)
         self.c_0 = Variable(self.c_0.data, requires_grad=False)
