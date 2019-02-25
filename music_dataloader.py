@@ -58,7 +58,7 @@ class MusicDataset(Dataset):
 
     def __getitem__(self, ind):
         x = torch.tensor(self.make_onehot(ind))
-        y = self.tunes[ind + 1]
+        y = torch.tensor(self.tunes[ind + 1]).long()
 
         return (x, y)
 
@@ -75,7 +75,7 @@ class MusicDataset(Dataset):
         return [self.dictionary[c] for c in string]
 
     def make_onehot(self, ind):
-        onehot = np.zeros(len(self.dictionary))
+        onehot = np.float32(np.zeros(len(self.dictionary)))
         onehot[self.tunes[ind]] = 1.
 
         return onehot
