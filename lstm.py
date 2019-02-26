@@ -13,8 +13,8 @@ class LSTM(nn.Module):
         self.lstm = nn.LSTM(input_size=input_size,
                             hidden_size=layer_size,
                             num_layers=n_layers,
-                            batch_first=True)
-        self.linear = nn.Linear(layer_size, output_size)
+                            batch_first=True).to(self.computing_device)
+        self.linear = nn.Linear(layer_size, output_size).to(self.computing_device)
         nn.init.xavier_normal_(self.linear.weight)
 
     def __call__(self, x):
