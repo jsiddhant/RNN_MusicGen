@@ -8,7 +8,6 @@ from torch_utils import setup_device
 from train_eval_utils import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-c', '--chkpt-every', type=int, dest='chkpt_every', default=100)
 parser.add_argument('-d', '--n-layers', type=int, dest='n_layers', default=1)
 parser.add_argument('-l', '--layer-size', type=int, dest='layer_size', default=100)
 parser.add_argument('-lr', '--learning-rate', type=float, dest='lr', default=0.001)
@@ -40,5 +39,4 @@ fit_rnn(lstm,
         args.model_name,
         computing_device,
         val_every=args.val_every,
-        chkpt_every=args.chkpt_every,
         update_hist=args.update_hist)
