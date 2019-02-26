@@ -38,17 +38,15 @@ if __name__ == "__main__":
                 n_layers=args.n_layers)
     lstm.to(computing_device)
     criterion = nn.CrossEntropyLoss()
-    optimizer = Adam(lstm.parameters(), lr=0.001)
+    optimizer = Adam(lstm.parameters(), lr=args.lr)
 
     fit_rnn(lstm,
-            criterion,
-            optimizer,
-            train_loader,
-            val_loader,
-            args.n_epochs,
-            args.model_name,
-            computing_device,
-            val_every=args.val_every,
-            chkpt_every=args.chkpt_every,
-            update_hist=args.update_hist)
-    
+        criterion,
+        optimizer,
+        train_loader,
+        val_loader,
+        args.n_epochs,
+        args.model_name,
+        computing_device,
+        val_every=args.val_every,
+        update_hist=args.update_hist)
