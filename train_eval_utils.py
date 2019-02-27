@@ -31,7 +31,6 @@ def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, mod
 
     for epoch in np.arange(n_epochs):
         train_losses[epoch] = []
-        val_losses[epoch] = []
         for i, (x, y) in enumerate(train_loader):
             model.train()
             optimizer.zero_grad()
@@ -53,15 +52,16 @@ def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, mod
             # Save the model and the training and validation losses
             if not total_seen % val_every:
                 # Validate the model
+                val_losses[total_seen] = evaluate_model(model, val_loader, criterion, computing_device,
+                                                        start_time)
                 with open(train_save_path, 'wb') as f:
                     pickle.dump(train_losses, f)
                 with open(val_save_path, 'wb') as f:
                     pickle.dump(val_losses, f)
-                val_losses[epoch].append(evaluate_model(model, val_loader, criterion, computing_device,
-                                                        start_time))
                 
-                if val_losses[epoch][-1] < min_val_loss:
+                if val_losses[total_seen] < min_val_loss:
                     torch.save(model.state_dict(), model_save_path)
+                    min_val_loss = val_losses[total_seen]
                 else:
                     return
                 
