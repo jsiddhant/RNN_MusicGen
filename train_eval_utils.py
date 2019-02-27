@@ -58,13 +58,11 @@ def fit_rnn(model, criterion, optimizer, train_loader, val_loader, n_epochs, mod
                     pickle.dump(train_losses, f)
                 with open(val_save_path, 'wb') as f:
                     pickle.dump(val_losses, f)
-                
+
                 if val_losses[total_seen] < min_val_loss:
                     torch.save(model.state_dict(), model_save_path)
                     min_val_loss = val_losses[total_seen]
-                else:
-                    return
-                
+
 
         print(f'\n[EPOCH {epoch + 1}]: Avg. loss for epoch: {np.mean(train_losses[epoch])}\n')
 
