@@ -1,8 +1,8 @@
 # RNN_MusicGen
 
 ## TO DO:
-1 Write Sampling Method (Tentatively Done).
-1 Test Sampling Method
+
+1. Write Sampling Method (Tentatively Done) & Test Sampling Method
 2. Train four networks:
     * 150: Siddhant
     * 100: AJ
