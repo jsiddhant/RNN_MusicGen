@@ -1,8 +1,8 @@
 # RNN_MusicGen
 
 ## TO DO:
-1.1 Write Sampling Method (Tentatively Done).
-1.2 Test Sampling Method
+1 Write Sampling Method (Tentatively Done).
+1 Test Sampling Method
 2. Train four networks:
     * 150: Siddhant
     * 100: AJ
@@ -14,3 +14,4 @@
 6. Write requirements.txt file
 7. Create Overleaf Doc
 8. Start writing Report
+9. Comparision to Vanilla RNN
