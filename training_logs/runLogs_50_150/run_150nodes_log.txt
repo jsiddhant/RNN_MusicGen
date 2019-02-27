@@ -1,0 +1,601 @@
+CUDA is supported
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 1]: Avg. loss for epoch: 2.2549922466278076
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 2]: Avg. loss for epoch: 1.6671855449676514
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 3]: Avg. loss for epoch: 1.493231177330017
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 4]: Avg. loss for epoch: 1.3913275003433228
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 5]: Avg. loss for epoch: 1.3155430555343628
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 6]: Avg. loss for epoch: 1.2586311101913452
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 7]: Avg. loss for epoch: 1.213455080986023
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 8]: Avg. loss for epoch: 1.1769331693649292
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 9]: Avg. loss for epoch: 1.149343729019165
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 10]: Avg. loss for epoch: 1.119945764541626
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 11]: Avg. loss for epoch: 1.0968493223190308
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 12]: Avg. loss for epoch: 1.0774215459823608
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 13]: Avg. loss for epoch: 1.063717007637024
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 14]: Avg. loss for epoch: 1.0453280210494995
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 15]: Avg. loss for epoch: 1.0301556587219238
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 16]: Avg. loss for epoch: 1.0177192687988281
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 17]: Avg. loss for epoch: 1.0089200735092163
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 18]: Avg. loss for epoch: 0.9960493445396423
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 19]: Avg. loss for epoch: 0.9865309000015259
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 20]: Avg. loss for epoch: 0.9789937734603882
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 21]: Avg. loss for epoch: 0.9702869057655334
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 22]: Avg. loss for epoch: 0.9624846577644348
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 23]: Avg. loss for epoch: 0.9561759829521179
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 24]: Avg. loss for epoch: 0.9485632181167603
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 25]: Avg. loss for epoch: 0.9414626955986023
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 26]: Avg. loss for epoch: 0.935785174369812
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 27]: Avg. loss for epoch: 0.9305384755134583
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 28]: Avg. loss for epoch: 0.9262051582336426
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 29]: Avg. loss for epoch: 0.9193596839904785
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 30]: Avg. loss for epoch: 0.9157590270042419
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 31]: Avg. loss for epoch: 0.9115704298019409
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 32]: Avg. loss for epoch: 0.9043008685112
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 33]: Avg. loss for epoch: 0.9061768054962158
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 34]: Avg. loss for epoch: 0.9007946252822876
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 35]: Avg. loss for epoch: 0.8946071267127991
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 36]: Avg. loss for epoch: 0.8911594748497009
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 37]: Avg. loss for epoch: 0.9057871699333191
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 38]: Avg. loss for epoch: 0.8854645490646362
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 39]: Avg. loss for epoch: 0.8827337026596069
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 40]: Avg. loss for epoch: 0.8803248405456543
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 41]: Avg. loss for epoch: 0.8756471872329712
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 42]: Avg. loss for epoch: 0.8738827705383301
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 43]: Avg. loss for epoch: 0.86586993932724
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 44]: Avg. loss for epoch: 0.8678510189056396
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 45]: Avg. loss for epoch: 0.865576446056366
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 46]: Avg. loss for epoch: 0.8615492582321167
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 47]: Avg. loss for epoch: 0.858130931854248
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 48]: Avg. loss for epoch: 0.8561946153640747
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 49]: Avg. loss for epoch: 0.8539972901344299
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 50]: Avg. loss for epoch: 0.8507026433944702
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 51]: Avg. loss for epoch: 0.8483304977416992
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 52]: Avg. loss for epoch: 0.8449819087982178
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 53]: Avg. loss for epoch: 0.8460448384284973
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 54]: Avg. loss for epoch: 0.8446391224861145
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 55]: Avg. loss for epoch: 0.838331937789917
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 56]: Avg. loss for epoch: 0.8379125595092773
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 57]: Avg. loss for epoch: 0.8369017243385315
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 58]: Avg. loss for epoch: 0.8332698941230774
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 59]: Avg. loss for epoch: 0.8305462598800659
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 60]: Avg. loss for epoch: 0.8267432451248169
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 61]: Avg. loss for epoch: 0.8318613767623901
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 62]: Avg. loss for epoch: 0.8280118703842163
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 63]: Avg. loss for epoch: 0.826073408126831
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 64]: Avg. loss for epoch: 0.8224456906318665
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 65]: Avg. loss for epoch: 0.822108268737793
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 66]: Avg. loss for epoch: 0.821703314781189
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 67]: Avg. loss for epoch: 0.8245816826820374
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 68]: Avg. loss for epoch: 0.8198577761650085
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 69]: Avg. loss for epoch: 0.816258430480957
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 70]: Avg. loss for epoch: 0.8191456198692322
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 71]: Avg. loss for epoch: 0.8120288848876953
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 72]: Avg. loss for epoch: 0.8100248575210571
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 73]: Avg. loss for epoch: 0.8086540102958679
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 74]: Avg. loss for epoch: 0.8067988157272339
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 75]: Avg. loss for epoch: 0.803558886051178
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 76]: Avg. loss for epoch: 0.8039951920509338
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 77]: Avg. loss for epoch: 0.8014240264892578
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 78]: Avg. loss for epoch: 0.8001644611358643
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 79]: Avg. loss for epoch: 0.7976566553115845
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 80]: Avg. loss for epoch: 0.7995900511741638
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 81]: Avg. loss for epoch: 0.7955999374389648
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 82]: Avg. loss for epoch: 0.7959399223327637
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 83]: Avg. loss for epoch: 0.795634388923645
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 84]: Avg. loss for epoch: 0.7920218706130981
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 85]: Avg. loss for epoch: 0.7897132039070129
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 86]: Avg. loss for epoch: 0.7898046374320984
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 87]: Avg. loss for epoch: 0.7896000146865845
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 88]: Avg. loss for epoch: 0.7866324186325073
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 89]: Avg. loss for epoch: 0.7854549884796143
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 90]: Avg. loss for epoch: 0.7886925339698792
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 91]: Avg. loss for epoch: 0.7845199108123779
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 92]: Avg. loss for epoch: 0.7844658493995667
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 93]: Avg. loss for epoch: 0.7829940319061279
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 94]: Avg. loss for epoch: 0.7811628580093384
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 95]: Avg. loss for epoch: 0.7787500619888306
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 96]: Avg. loss for epoch: 0.7802255153656006
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 97]: Avg. loss for epoch: 0.775864839553833
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 98]: Avg. loss for epoch: 0.777343213558197
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 99]: Avg. loss for epoch: 0.7770035266876221
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 100]: Avg. loss for epoch: 0.7708517909049988
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 101]: Avg. loss for epoch: 0.7759841680526733
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 102]: Avg. loss for epoch: 0.7724673748016357
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 103]: Avg. loss for epoch: 0.7723579406738281
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 104]: Avg. loss for epoch: 0.7693533897399902
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 105]: Avg. loss for epoch: 0.7708693146705627
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 106]: Avg. loss for epoch: 0.7684777975082397
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 107]: Avg. loss for epoch: 0.7664093375205994
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 108]: Avg. loss for epoch: 0.7694598436355591
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 109]: Avg. loss for epoch: 0.7662962675094604
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 110]: Avg. loss for epoch: 0.7659142017364502
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 111]: Avg. loss for epoch: 0.767946183681488
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 112]: Avg. loss for epoch: 0.7645066380500793
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 113]: Avg. loss for epoch: 0.7659969925880432
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 114]: Avg. loss for epoch: 0.7638344168663025
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 115]: Avg. loss for epoch: 0.7609003782272339
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 116]: Avg. loss for epoch: 0.7600093483924866
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 117]: Avg. loss for epoch: 0.7601130604743958
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 118]: Avg. loss for epoch: 0.7603127360343933
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 119]: Avg. loss for epoch: 0.7604658603668213
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 120]: Avg. loss for epoch: 0.759143054485321
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 121]: Avg. loss for epoch: 0.7556186318397522
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 122]: Avg. loss for epoch: 0.7564898133277893
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 123]: Avg. loss for epoch: 0.7580787539482117
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 124]: Avg. loss for epoch: 0.7576261758804321
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 125]: Avg. loss for epoch: 0.7529656291007996
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 126]: Avg. loss for epoch: 0.7532849311828613
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 127]: Avg. loss for epoch: 0.75162273645401
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 128]: Avg. loss for epoch: 0.7522602081298828
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 129]: Avg. loss for epoch: 0.7470728754997253
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 130]: Avg. loss for epoch: 0.7478179335594177
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 131]: Avg. loss for epoch: 0.7505582571029663
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 132]: Avg. loss for epoch: 0.7472525238990784
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 133]: Avg. loss for epoch: 0.7463705539703369
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 134]: Avg. loss for epoch: 0.7463366985321045
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 135]: Avg. loss for epoch: 0.7476639151573181
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 136]: Avg. loss for epoch: 0.7476674318313599
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 137]: Avg. loss for epoch: 0.7462320923805237
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 138]: Avg. loss for epoch: 0.7450994253158569
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 139]: Avg. loss for epoch: 0.7423375844955444
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 140]: Avg. loss for epoch: 0.7438490986824036
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 141]: Avg. loss for epoch: 0.7435840368270874
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 142]: Avg. loss for epoch: 0.7412031888961792
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 143]: Avg. loss for epoch: 0.7452340126037598
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 144]: Avg. loss for epoch: 0.7398540377616882
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 145]: Avg. loss for epoch: 0.7409833073616028
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 146]: Avg. loss for epoch: 0.7389058470726013
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 147]: Avg. loss for epoch: 0.7382724285125732
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 148]: Avg. loss for epoch: 0.7375903129577637
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 149]: Avg. loss for epoch: 0.7415995001792908
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 150]: Avg. loss for epoch: 0.7438865900039673
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 151]: Avg. loss for epoch: 0.7371246814727783
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 152]: Avg. loss for epoch: 0.7333226799964905
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 153]: Avg. loss for epoch: 0.7347962260246277
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 154]: Avg. loss for epoch: 0.739459753036499
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 155]: Avg. loss for epoch: 0.7346264719963074
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 156]: Avg. loss for epoch: 0.7318398952484131
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 157]: Avg. loss for epoch: 0.7316697835922241
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 158]: Avg. loss for epoch: 0.7326026558876038
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 159]: Avg. loss for epoch: 0.7305749654769897
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 160]: Avg. loss for epoch: 0.7294600009918213
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 161]: Avg. loss for epoch: 0.730460524559021
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 162]: Avg. loss for epoch: 0.7322707772254944
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 163]: Avg. loss for epoch: 0.7302423119544983
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 164]: Avg. loss for epoch: 0.7281642556190491
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 165]: Avg. loss for epoch: 0.7283192873001099
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 166]: Avg. loss for epoch: 0.7302230596542358
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 167]: Avg. loss for epoch: 0.7268557548522949
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 168]: Avg. loss for epoch: 0.7253986597061157
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 169]: Avg. loss for epoch: 0.7272566556930542
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 170]: Avg. loss for epoch: 0.7276487946510315
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 171]: Avg. loss for epoch: 0.7282268404960632
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 172]: Avg. loss for epoch: 0.725646436214447
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 173]: Avg. loss for epoch: 0.7238340377807617
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 174]: Avg. loss for epoch: 0.7267123460769653
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 175]: Avg. loss for epoch: 0.7238401770591736
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 176]: Avg. loss for epoch: 0.7239739298820496
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 177]: Avg. loss for epoch: 0.7232204079627991
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 178]: Avg. loss for epoch: 0.7232245802879333
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 179]: Avg. loss for epoch: 0.7202282547950745
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 180]: Avg. loss for epoch: 0.7190049290657043
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 181]: Avg. loss for epoch: 0.7216493487358093
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 182]: Avg. loss for epoch: 0.7204668521881104
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 183]: Avg. loss for epoch: 0.720888078212738
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 184]: Avg. loss for epoch: 0.7181152105331421
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 185]: Avg. loss for epoch: 0.7181623578071594
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 186]: Avg. loss for epoch: 0.7192238569259644
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 187]: Avg. loss for epoch: 0.7168813943862915
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 188]: Avg. loss for epoch: 0.7176989912986755
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 189]: Avg. loss for epoch: 0.7152056097984314
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 190]: Avg. loss for epoch: 0.71976637840271
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 191]: Avg. loss for epoch: 0.718008279800415
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 192]: Avg. loss for epoch: 0.7168613076210022
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 193]: Avg. loss for epoch: 0.7172648310661316
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 194]: Avg. loss for epoch: 0.7157718539237976
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 195]: Avg. loss for epoch: 0.7167531847953796
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 196]: Avg. loss for epoch: 0.7158839106559753
+
+                                                                                                                                                                                                                                                                                                                                                                        
+[EPOCH 197]: Avg. loss for epoch: 0.7148230671882629
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 198]: Avg. loss for epoch: 0.7165916562080383
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 199]: Avg. loss for epoch: 0.7142958045005798
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+[EPOCH 200]: Avg. loss for epoch: 0.713111400604248
+
