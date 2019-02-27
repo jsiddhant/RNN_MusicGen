@@ -25,7 +25,7 @@ def sample_lstm(dictionary, sample_len = 100, model_path='models/lstm.pt', start
         out_list.append(dictionary.index_to_class[out_ind])
 
         current_sequence_input = torch.zeros(1, 1, len(dictionary))
-        current_sequence_input [0,0,dictionary.class_to_index[start_char]]=1
+        current_sequence_input [0,0,out_ind]=1
         current_sequence_input = current_sequence_input.to(computing_device)
     
     return out_list
