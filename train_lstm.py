@@ -28,7 +28,7 @@ lstm = LSTM(len(dictionary),
             n_layers=args.n_layers)
 lstm.to(computing_device)
 criterion = nn.CrossEntropyLoss()
-optimizer = Adam(lstm.parameters(), lr=0.001)
+optimizer = Adam(lstm.parameters(), lr=args.lr)
 
 fit_rnn(lstm,
         criterion,
