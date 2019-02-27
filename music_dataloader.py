@@ -5,11 +5,10 @@ from torch.utils.data import Dataset, DataLoader
 
 class ClassDictionary:
     def __init__(self, data_fp):
-        self.vocab_set = None
         self.index_to_class = None
         self.class_to_index = None
         self.make_lookup(data_fp)
-        self.len = len(self.vocab_set)
+        self.len = len(self.index_to_class)
 
     def __len__(self):
         return self.len
@@ -18,7 +17,7 @@ class ClassDictionary:
         if type(id) is torch.Tensor:
             id = int(id.detach().cpu().numpy())
         if type(id) is str:
-            if id not in self.vocab_set:
+            if id not in self.index_to_class:
                 return self.class_to_index['<unk>']
             return self.class_to_index[id]
         elif type(id) is int:
@@ -37,11 +36,11 @@ class ClassDictionary:
     def make_lookup(self, fp):
         with open(fp, 'r') as f:
             data = list(itertools.chain(*[l for l in f.readlines() if l != '<end>' and l != '<start>']))
-        self.vocab_set = set(data)
-        self.vocab_set.add('<start>')
-        self.vocab_set.add('<end>')
-        self.vocab_set.add('<unk>')
-        self.index_to_class = list(self.vocab_set)
+        char_set = set(data)
+        char_set.add('<start>')
+        char_set.add('<end>')
+        char_set.add('<unk>')
+        self.index_to_class = sorted(list(char_set))
         self.class_to_index = {v:i for i, v in enumerate(self.index_to_class)}
 
 
@@ -90,7 +89,7 @@ def create_split_loaders(seq_length):
     train_dataset = MusicDataset(dictionary, fp_train)
     val_dataset = MusicDataset(dictionary, fp_val)
     test_dataset = MusicDataset(dictionary, fp_test)
-    
+
     train_loader = DataLoader(train_dataset, batch_size=seq_length)
     val_loader = DataLoader(val_dataset, batch_size=seq_length)
     test_loader = DataLoader(test_dataset, batch_size=seq_length)
