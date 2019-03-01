@@ -9,6 +9,7 @@ from torch.optim import Adam
 from torch.utils.data import Dataset, DataLoader
 
 from lstm import LSTM
+from rnn import RNN
 from music_dataloader import create_split_loaders
 from torch_utils import setup_device
 
