@@ -1,17 +1,13 @@
 # RNN_MusicGen
 
-## TO DO:
+## TO TRAIN LSTM MODEL AND DUMP TRAINING AND VALIDATION LOSSES ##
+python train_lstm.py -l <number_of_hidden_units> -n <number_of_epochs> -m <model_name_to_save_loss> > bg/run_logs.txt 
 
-1. Write Sampling Method (Tentatively Done) & Test Sampling Method
-2. Train four networks:
-    * 150: Siddhant
-    * 100: AJ
-    * 50: Devendra
-    * 75: Dharmendra
-3. Plot results (Plotter by Devendra already Created)
-4. Visualize neuron in best trained network (HeatMap Dharmendra will check out)
-5. Write this README
-6. Write requirements.txt file
-7. Create Overleaf Doc
-8. Start writing Report
-9. Comparision to Vanilla RNN
+## TO TRAIN LSTM MODEL AND DUMP TRAINING AND VALIDATION LOSSES ##
+python train_rnn.py -l <number_of_hidden_units> -n <number_of_epochs> -m <model_name_to_save_loss> > bg/run_logs.txt 
+
+## TO PLOT TRAINING AND VALIDATION LOSSES ##
+plotGraph.ipynb
+
+## TO GENERATE MUSIC AND HEATMAPS ##
+sample_lstm.py / sample_lstm.ipynb
